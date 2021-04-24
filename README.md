@@ -5,7 +5,7 @@ World's simplest Python editor built with Neutralinojs
 ![LitePy on Linux](media/litepy_prev_linux.gif)
 
 ## on Windows
-![LitePy on Linux](media/litepy_prev_windows.gif)
+![LitePy on Windows](media/litepy_prev_win.gif)
 
 ## on macOS
 [Support](https://github.com/neutralinojs/v2-specification) Neutralinojs to release the v2 version for macOS.
