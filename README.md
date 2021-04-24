@@ -1,6 +1,41 @@
-# neutralinojs-minimal
-The simplest template for a Neutralinojs app. It's possible to use your favorite frontend framework using the following steps.
+# litepy
+World's simplest Python editor built with Neutralinojs
 
-- Create a new project using your favorite frontend framework. (Eg: `ng new --directory .`)
-- Make the frontend framework's build path and Neutralino config's `url`, `resourcesPath` the same.
-- Build with the correct base href.
+## on Linux
+![LitePy on Linux](media/litepy_prev_linux.gif)
+
+## on Windows
+![LitePy on Linux](media/litepy_prev_windows.gif)
+
+## on macOS
+[Support](https://github.com/neutralinojs/v2-specification) Neutralinojs to release the v2 version for macOS.
+
+## on Browser
+![Liteman on Browser](media/litepy_prev_web.gif)
+
+# Developer Q & A
+
+How to run the app?
+
+```
+ $ neu run
+```
+
+How to make a build of React code?
+
+```
+ $ cd liteman-rc
+ $ yarn run build_unix
+```
+
+How to make binaries for the latest code?
+
+```
+ $ neu build
+```
+
+## License
+
+[MIT](LICENSE)
+Copyright (c) Shalitha Suranga
+
