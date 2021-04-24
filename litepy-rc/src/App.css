@@ -1,0 +1,52 @@
+.litepy {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+}
+
+.litepy .col {
+  flex: 1 0 50%;
+  white-space: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.litepy .h-col {
+  flex: 0 0 50%;
+  height: 50%;
+  width: 100%;
+}
+
+.litepy .title {
+  padding: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.litepy textarea {
+  width: 100%;
+  resize: none;
+}
+
+.code-editor, .editor {
+  flex: 0 0 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.code-config {
+  flex-flow: column nowrap;
+}
+
+.code-input textarea {
+  height: calc(100% - 66px);
+}
+
+.code-input .run-btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.code-output textarea {
+  height: calc(100% - 26px);
+}

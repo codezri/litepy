@@ -1,0 +1,32 @@
+{
+  "applicationId": "js.neutralino.sample",
+  "port": 0,
+  "defaultMode": "window",
+  "enableHTTPServer": true,
+  "enableNativeAPI": true,
+  "url": "/resources/",
+  "nativeBlockList": [],
+  "globalVariables": {
+    "PYNAME": "python"
+  },
+  "modes": {
+    "window": {
+      "title": "litepy",
+      "width": 800,
+      "height": 500,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/icons/appIcon.png",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": false
+    },
+    "browser": {},
+    "cloud": {}
+  },
+  "cli": {
+    "binaryName": "litepy",
+    "resourcesPath": "/resources/",
+    "clientLibrary": "/resources/neutralino.js"
+  }
+}
