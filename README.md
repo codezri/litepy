@@ -25,7 +25,7 @@ How to make a build of React code?
 
 ```
  $ cd liteman-rc
- $ yarn run build_unix
+ $ yarn run build
 ```
 
 How to make binaries for the latest code?
