@@ -28,6 +28,8 @@ How to make a build of React code?
  $ yarn run build
 ```
 
+*Note: If you are on Windows, please run the above command via Git Bash terminal.*
+
 How to make binaries for the latest code?
 
 ```
