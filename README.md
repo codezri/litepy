@@ -8,7 +8,7 @@ World's simplest Python editor built with Neutralinojs
 ![LitePy on Windows](media/litepy_prev_win.gif)
 
 ## on macOS
-[Support](https://github.com/neutralinojs/v2-specification) Neutralinojs to release the v2 version for macOS.
+![LitePy on macOs](media/litepy_prev_macos.gif)
 
 ## on Browser
 ![Liteman on Browser](media/litepy_prev_web.gif)
@@ -24,9 +24,11 @@ How to run the app?
 How to make a build of React code?
 
 ```
- $ cd liteman-rc
- $ yarn run build_unix
+ $ cd litepy-rc
+ $ yarn run build
 ```
+
+*Note: If you are on Windows, please run the above command via Git Bash terminal.*
 
 How to make binaries for the latest code?
 
@@ -37,5 +39,5 @@ How to make binaries for the latest code?
 ## License
 
 [MIT](LICENSE)
-Copyright (c) Shalitha Suranga
+Copyright (c) CodeZri.org
 
