@@ -10,8 +10,6 @@ World's simplest Python editor built with Neutralinojs
 ## on macOS
 ![LitePy on macOs](media/litepy_prev_macos.gif)
 
-[Support](https://github.com/neutralinojs/v2-specification) Neutralinojs to release the v2 version for macOS.
-
 ## on Browser
 ![Liteman on Browser](media/litepy_prev_web.gif)
 
