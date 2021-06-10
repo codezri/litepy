@@ -1,4 +1,15 @@
-# Auto-generated files
+# Developer tools' files
+.lite_workspace.lua
+
+# Neutralinojs binaries and builds
+/bin
+/dist
+
+# Neutralinojs related files
+.storage
+*.log
+
+# Auto-generated files by the app
 code.py
 input.txt
 output.txt
