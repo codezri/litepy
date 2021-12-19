@@ -1,13 +1,14 @@
 {
-  "applicationId": "js.neutralino.sample",
+  "applicationId": "js.neutralino.litepy",
   "port": 0,
   "defaultMode": "window",
-  "enableHTTPServer": true,
+  "enableServer": true,
   "enableNativeAPI": true,
-  "url": "/resources/",
+  "url": "/",
+  "documentRoot": "/resources/",
   "nativeBlockList": [],
   "globalVariables": {
-    "PYNAME": "python"
+    "PYNAME": "python3"
   },
   "modes": {
     "window": {
@@ -27,6 +28,9 @@
   "cli": {
     "binaryName": "litepy",
     "resourcesPath": "/resources/",
-    "clientLibrary": "/resources/neutralino.js"
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/litepy-react/public/neutralino.js",
+    "binaryVersion": "4.0.0",
+    "clientVersion": "3.0.0"
   }
 }

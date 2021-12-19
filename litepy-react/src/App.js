@@ -5,10 +5,9 @@ import { highlight, languages } from 'prismjs/components/prism-core';
 import "prismjs/components/prism-clike";
 import 'prismjs/components/prism-python';
 import "prismjs/themes/prism.css"
-import {PyRunner} from "./PyRunner";
+import * as PyRunner from "./PyRunner";
 
 function App() {;
-  const pyRunner = new PyRunner();
   const [code, setCode] = React.useState(
     `def main():
   print("Hello World!")
@@ -20,10 +19,7 @@ main()
   const [input, setInput] = React.useState("");
 
   async function runCode() {
-    setOutput(await pyRunner.run({
-      input,
-      code
-    }));
+    setOutput(await PyRunner.run(code, input));
   }
   return (
     <div className="litepy">

@@ -4,6 +4,7 @@
 # Neutralinojs binaries and builds
 /bin
 /dist
+/resources
 
 # Neutralinojs related files
 .storage
