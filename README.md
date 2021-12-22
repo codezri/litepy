@@ -24,7 +24,7 @@ How to run the app?
 How to make a build of React code?
 
 ```
- $ cd litepy-rc
+ $ cd litepy-react
  $ yarn run build
 ```
 
