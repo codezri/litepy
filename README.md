@@ -21,16 +21,7 @@ How to run the app?
  $ neu run
 ```
 
-How to make a build of React code?
-
-```
- $ cd litepy-react
- $ yarn run build
-```
-
-*Note: If you are on Windows, please run the above command via Git Bash terminal.*
-
-How to make binaries for the latest code?
+How to generate app binaries?
 
 ```
  $ neu build
