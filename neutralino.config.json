@@ -5,7 +5,7 @@
   "enableServer": true,
   "enableNativeAPI": true,
   "url": "/",
-  "documentRoot": "/resources/",
+  "documentRoot": "/react-src/build/",
   "nativeBlockList": [],
   "globalVariables": {
     "PYNAME": "python3"
@@ -17,7 +17,7 @@
       "height": 500,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/icons/appIcon.png",
+      "icon": "/react-src/public/logo192.png",
       "enableInspector": false,
       "borderless": false,
       "maximize": false
@@ -27,7 +27,17 @@
   },
   "cli": {
     "binaryName": "litepy",
-    "resourcesPath": "/resources/",
-    "extensionsPath": "/extensions/"
+    "resourcesPath": "/react-src/build/",
+    "extensionsPath": "/extensions/",
+    "frontendLibrary": {
+      "patchFile": "/react-src/public/index.html",
+      "devUrl": "http://localhost:3000",
+      "projectPath": "/react-src/",
+      "initCommand": "npm install",
+      "devCommand": "npm run start",
+      "buildCommand": "npm run build",
+      "waitTimeout": 20000
+    },
+    "binaryVersion": "5.2.0"
   }
 }
